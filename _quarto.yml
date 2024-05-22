@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Количествени методи и моделиране"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Начало
+      - href: services.qmd
+        text: Услуги
+      - href: blog/index.qmd
+        text: Блог
+      - href: about.qmd
+        text: За нас
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

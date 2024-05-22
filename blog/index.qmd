@@ -1,0 +1,9 @@
+---
+title: Блог
+subtitle: Новини, анализи и коментари
+listing:
+  sort: "date desc"
+  contents: "posts/*/index.qmd"
+page-layout: full
+search: false
+---

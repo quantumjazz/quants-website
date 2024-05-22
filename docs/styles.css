@@ -1,0 +1,44 @@
+/* css styles */
+
+/* Container for the hero buttons */
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+}
+
+/* Style for individual buttons */
+.hero-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #4682b4;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #2b4f6e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;  /* Ensuring text color stays the same */
+}
+
+.hero-button:active {
+    background-color: #2b4f6e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;  /* Ensuring text color stays the same */
+}
+
+.hero-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 98, 255, 0.5);
+    color: #ffffff;  /* Ensuring text color stays the same */
+}
+
